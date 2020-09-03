@@ -1,7 +1,28 @@
 require 'test_helper'
 
 class TodoTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "the truth" do
+    assert true
+  end
+
+  test "sleep 1" do
+    sleep 3
+    assert true
+  end
+
+  sleep 3
+  test "sleep 2" do
+    assert true
+  end
+
+  test "sleep 3" do
+    sleep 3
+    assert true
+  end
+
+  test "sleep 4" do
+    sleep 3
+    assert true
+  end
+
 end
